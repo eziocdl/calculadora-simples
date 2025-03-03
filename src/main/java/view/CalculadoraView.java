@@ -37,6 +37,13 @@ public void exibirMensagemDeErro(String mensagem) {
 
 }
 
+public char receberOpcao() {
+    System.out.println("Deseja continuar? (s/n)");
+   return scanner.next().toLowerCase().charAt(0);
+
+
+}
+
 public void fecharScanner() {
         scanner.close();
     }
