@@ -29,6 +29,8 @@ Este projeto implementa uma calculadora simples em Java utilizando o padrão de 
  ┃      # Arquivos de configuração do IntelliJ IDEA  
  ┣ 📂 build                        
  ┃      # Diretório de saída compilada  
+ ┣ 📂 docs                         
+ ┃      # Documentação do projeto  
  ┣ 📂 gradle                       
  ┃      # Arquivos do wrapper do Gradle  
  ┣ 📂 src  
@@ -60,9 +62,10 @@ Este projeto implementa uma calculadora simples em Java utilizando o padrão de 
  ┃      # Wrapper do Gradle (Linux/macOS)  
  ┣ 📜 gradlew.bat  
  ┃      # Wrapper do Gradle (Windows)  
+ ┣ 📜 README.md  
+ ┃      # Documentação do projeto  
  ┣ 📜 settings.gradle.kts  
  ┃      # Arquivo de configurações do Gradle  
-
 
 
 ## Como Executar o Projeto
@@ -81,6 +84,10 @@ Este projeto implementa uma calculadora simples em Java utilizando o padrão de 
 * **🧹 Arquivo `.gitignore`:** O arquivo `.gitignore` foi configurado para ignorar arquivos e diretórios desnecessários, mantendo o repositório limpo.
 * **📝 Mensagens de Commit:** As mensagens de commit são claras e concisas, facilitando o acompanhamento das alterações.
 * **⚙️ Gradle:** O Gradle é utilizado para o gerenciamento de dependências e automatização do processo de build, garantindo a reprodutibilidade do projeto.
+
+## Documentação
+
+A documentação Javadoc está disponível no diretório `docs`. Você pode acessá-la abrindo o arquivo `index.html` em um navegador.
 
 ## Contribuição
 
