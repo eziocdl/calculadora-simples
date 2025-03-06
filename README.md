@@ -22,15 +22,48 @@ Este projeto implementa uma calculadora simples em Java utilizando o padrão de 
 
 ## Estrutura do Projeto
 
-* `src/main/java/`: Diretório principal do código fonte Java.
-    * `controller/`: Pacote contendo a classe `CalculadoraController`.
-    * `model/`: Pacote contendo a interface `CalculadoraModelInterface` e a classe `CalculadoraModelImpl`.
-    * `view/`: Pacote contendo a classe `CalculadoraView`.
-    * `io.github.eziocdl/`: Pacote contendo a classe `Main`.
-* `gradle/`: Diretório contendo os arquivos de configuração do Gradle.
-* `.gitignore`: Arquivo contendo os padrões de arquivos e diretórios a serem ignorados pelo Git.
-* `build.gradle`: Arquivo de configuração do Gradle.
-* `settings.gradle`: Arquivo de configuração do Gradle.
+📦 Calculadora  
+ ┣ 📂 .gradle                       
+ ┃      # Arquivos do sistema de build Gradle  
+ ┣ 📂 .idea                        
+ ┃      # Arquivos de configuração do IntelliJ IDEA  
+ ┣ 📂 build                        
+ ┃      # Diretório de saída compilada  
+ ┣ 📂 gradle                       
+ ┃      # Arquivos do wrapper do Gradle  
+ ┣ 📂 src  
+ ┃ ┣ 📂 main  
+ ┃ ┃ ┣ 📂 java  
+ ┃ ┃ ┃ ┣ 📂 controller  
+ ┃ ┃ ┃ ┃ ┣ 📜 CalculadoraController.java  
+ ┃ ┃ ┃ ┃       # Controlador que gerencia as interações e requisições do usuário  
+ ┃ ┃ ┃ ┣ 📂 io.github.eziocdl  
+ ┃ ┃ ┃ ┃ ┣ 📜 Main.java  
+ ┃ ┃ ┃ ┃       # Ponto de entrada principal da aplicação  
+ ┃ ┃ ┃ ┣ 📂 model  
+ ┃ ┃ ┃ ┃ ┣ 📜 CalculadoraModelImpl.java  
+ ┃ ┃ ┃ ┃       # Implementação da lógica de negócios  
+ ┃ ┃ ┃ ┃ ┣ 📜 CalculadoraModelInterface.java  
+ ┃ ┃ ┃ ┃       # Interface que define o contrato do modelo  
+ ┃ ┃ ┃ ┣ 📂 view  
+ ┃ ┃ ┣ 📂 resources  
+ ┃ ┃        # Recursos da aplicação (ex.: arquivos de configuração)  
+ ┃ ┣ 📂 test  
+ ┃          # Testes unitários e de integração  
+ ┣ 📜 .gitignore  
+ ┃      # Arquivo para ignorar arquivos desnecessários no Git  
+ ┣ 📜 build.gradle.kts  
+ ┃      # Configuração do build do Gradle (Kotlin DSL)  
+ ┣ 📜 Calculadora.iml  
+ ┃      # Arquivo do projeto IntelliJ  
+ ┣ 📜 gradlew  
+ ┃      # Wrapper do Gradle (Linux/macOS)  
+ ┣ 📜 gradlew.bat  
+ ┃      # Wrapper do Gradle (Windows)  
+ ┣ 📜 settings.gradle.kts  
+ ┃      # Arquivo de configurações do Gradle  
+
+
 
 ## Como Executar o Projeto
 
