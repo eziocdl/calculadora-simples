@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"controller","l":"CalculadoraController"},{"p":"model","l":"CalculadoraModelImpl"},{"p":"model","l":"CalculadoraModelInterface"},{"p":"view","l":"CalculadoraView"},{"p":"io.github.eziocdl","l":"Main"}];updateSearchResults();

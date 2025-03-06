@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"controller"},{"l":"io.github.eziocdl"},{"l":"model"},{"l":"view"}];updateSearchResults();

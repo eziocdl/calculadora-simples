@@ -3,25 +3,36 @@ package controller;
 import model.CalculadoraModelInterface;
 import view.CalculadoraView;
 
-import java.util.Objects;
-
+/**
+ * Classe que controla a interação entre o Model e a View.
+ * Implementa a lógica principal da calculadora.
+ */
 public class CalculadoraController {
 
     private CalculadoraModelInterface model;
     private CalculadoraView view;
 
+    /**
+     * Construtor da classe CalculadoraController.
+     *
+     * @param model O modelo da calculadora.
+     * @param view A interface de usuário da calculadora.
+     */
     public CalculadoraController(CalculadoraModelInterface model, CalculadoraView view) {
         this.model = model;
         this.view = view;
     }
 
+    /**
+     * Inicia a execução da calculadora.
+     * Recebe os dados do usuário, realiza o cálculo e exibe o resultado.
+     */
     public void iniciar() {
-        char opcao = 's'; // Inicializa opcao como char
+        char opcao = 's';
         do {
             double num1 = view.receberNumero("Digite o primeiro numero: ");
-            char operacao = view.receberOperacao();
             double num2 = view.receberNumero("Digite o segundo número: ");
-
+            char operacao = view.receberOperacao();
 
             double resultado = 0;
 
@@ -51,12 +62,6 @@ public class CalculadoraController {
             opcao = view.receberOpcao();
         } while (opcao == 's');
 
-        view.fecharScanner(); // Remove o ponto e vírgula extra
+        view.fecharScanner();
     }
-
-
-
-
-    }
-
-
+}

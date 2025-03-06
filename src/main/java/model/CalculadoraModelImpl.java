@@ -1,8 +1,11 @@
 package model;
 
+/**
+ * Implementação da interface CalculadoraModelInterface.
+ * Realiza as operações aritméticas básicas.
+ */
 public class CalculadoraModelImpl implements CalculadoraModelInterface {
 
-// métodos implementaodos por causa da interface(Contrato)
     @Override
     public double somar(double a, double b) {
         return a + b;
@@ -20,9 +23,8 @@ public class CalculadoraModelImpl implements CalculadoraModelInterface {
 
     @Override
     public double dividir(double a, double b) {
-
         if (b == 0) {
-            throw new IllegalArgumentException("Divisão por zero não é permitido: ");
+            throw new IllegalArgumentException("Divisão por zero não é permitida.");
         }
         return a / b;
     }
