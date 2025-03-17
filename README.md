@@ -37,7 +37,7 @@ Este projeto implementa uma calculadora simples em Java utilizando o padrao de p
  ┃ ┃ ┃ ┣ 📂 controller  
  ┃ ┃ ┃ ┃ ┣ 📜 CalculadoraController.java  
  ┃ ┃ ┃ ┃       # Controlador que gerencia as interacoes e requisicoes do usuario  
- ┃ ┃ ┃ ┣ 📂 io.github.eziocdl  
+ ┃ ┃ ┃ ┣ 📂 application  
  ┃ ┃ ┃ ┃ ┣ 📜 Main.java  
  ┃ ┃ ┃ ┃       # Ponto de entrada principal da aplicacao  
  ┃ ┃ ┃ ┣ 📂 model  
